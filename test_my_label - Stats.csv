@@ -1,0 +1,25 @@
+Label,% of Incorrectly classified,my_label,True class name,My class name,,
+0,16.77852349,6,Annual Crop, PermanentCrop,,
+1,4.362416107,"2,5",Forest,"HerbaceousVegetation, Pasture",,
+2,9.395973154,"6,1",HerbaceousVegetation," PermanentCrop, Forest",,
+3,3.691275168,8,Highway,River,,
+4,4.026845638,7,Industrial,Residential,,
+5,7.718120805,"0,2",Pasture,"AnnualCrop, HerbaceousVegetation",,
+6,31.54362416,"0,2",Permanentcrop,"AnnualCrop, HerbaceousVegetation",,
+7,6.040268456,"4,6",Residential,"Industrial, PermanentCrop",,
+8,6.040268456,"3,4",River,Highway. Industrial,,
+9,10.73825503,"1,2",Sea/Lake,"Forest, HerbaceousVegetation",,
+,,,,,,
+,,,,,,
+,My model,211,,Human Performance,298,
+,True class name,% of wrongly classified,mixed with,True class name,% of wrongly classified,mixed with
+Bad,PermanentCrop,37,"HerbaceousVegetation, AnnualCrop, Industrial",PermanentCrop,32,"AnnualCrop, HerbaceousVegetation"
+,Highway,22,"Industrial, River, AnnualCrop",AnnualCrop,17,PermanentCrop
+,HerbaceousVegetation,12,"Industrial, PermanentCrop, AnnualCrop",Sea/Lake,11,"Forest, HerbaceousVegetation"
+Medium,Pasture,7,"River, HerbaceousVegetation,AnnualCrop",HerbaceousVegetation,9,"PermanentCrop, Forest"
+,River,7,"AnnualCrop, Highway, Industrial",Pasture,8,"AnnualCrop, HerbaceousVegetation"
+,AnnualCrop,5,"Pasture, HerbaceousVegetation, River",Residential,6,"Industrial, PermanentCrop"
+,,,,River,6,Highway. Industrial
+Good,Forest,4,"Sea/Lake, River",Forest,4,"HerbaceousVegetation, Pasture"
+,Sea/Lake,3,"AnnualCrop, Pasture",Industrial,4,Residential
+,Industrial,2,Residential,Highway,3,River
