@@ -29,6 +29,6 @@ The **approach** used is **Convolutional Neural Network (CNN)**, which is a type
 
 The performance of the model has been compared to human performance. File **test_my_label.xlsx** or files **test_my_label - Stats.csv and  test_my_label- test_my_label.csv** include the test data and label(class) assigned by human. The accuracy of labeling test images by human is **90%**. Although accuracy is quite similar to the accuracy of the model, human was **324 times slower** labeling the images than the model. 
 
-**Land_Cover_Classification_using_Deep_learing.pptx** is a presentation for non-technical users.
+**Final_presentation_Uliana_Harras_2025_01_15.pptx** is a presentation for non-technical users.
 
 
