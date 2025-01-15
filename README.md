@@ -2,7 +2,7 @@
 Final project at WBS Coding School (Data Science Bootcamp)
 
 **The project is aimed to classify satellite images (EuroSAT dataset) to 10 different land cover classes using Deep Learning model.** 
-Land cover calssification is categorizing the Earth's surface into predefined classes such as water, vegetation, urban areas, etc. using satellite/aerial imagery. 
+Land cover classification is categorizing the Earth's surface into predefined classes such as water, vegetation, urban areas, etc. using satellite/aerial imagery. 
 
 The classes are the following:
 * Annual Crop
